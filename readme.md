@@ -1,6 +1,6 @@
 PokemonSTAY documentation
 ================
-Installation
+
 fastlane is required to resign the ipa and dylib. use homebrew or macports:
 ```
 sudo brew install fastlane
