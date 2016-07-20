@@ -1,24 +1,20 @@
-fastlane documentation
+PokemonSTAY documentation
 ================
-# Installation
+Installation
+fastlane is required to resign the ipa and dylib. use homebrew or macports:
 ```
-sudo gem install fastlane
+sudo brew install fastlane
 ```
-# Available Actions
-## iOS
-### ios test
+Once all is installed, no need to build with xcode (unless you wish to).
+You need to have your ios dev mobile provison downloaded and saved into the root of the project as
+embedded.mobileprovision. if this doesn't make sense, look into a free ios dev membership for sideloading apps.
+Once you have everything, run the build script with:
 ```
-fastlane ios test
+./gogo.sh
 ```
-Runs all the tests
-### ios resign
-```
-fastlane ios resign
-```
-
+finally, copy the ipa to your device using xcode or itunes to do so. you'll know everything went okay if the app
+installs and launches without a hitch.
 
 ----
 
-This README.md is auto-generated and will be re-generated every time to run [fastlane](https://fastlane.tools).
-More information about fastlane can be found on [https://fastlane.tools](https://fastlane.tools).
-The documentation of fastlane can be found on [GitHub](https://github.com/fastlane/fastlane/tree/master/fastlane).
+I claim no responsibility for bans or any account issue! This is definitely against the TOS and is just for proof of concept. Use at your own risk...
