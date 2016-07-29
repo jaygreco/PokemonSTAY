@@ -77,3 +77,5 @@ Carthage/Build
 LocationFaker/Package/DEBIAN/control
 
 LocationFaker/Package/DEBIAN/control.txt
+
+report.xml
