@@ -1,10 +1,10 @@
 PokemonSTAY documentation
 ================
+Note: download pokemon_unsigned.zip from https://github.com/rpplusplus/PokemonHook, it's not hosted here!
 
 The same tool used to install the new pangu jailbreak can be used to sign and install this app, on any OS, without the need for xcode or fastlane! If no modification of the code is required, just use Cydia Impactor to resign and install using your personal iOS developer certificate.
 
 http://www.cydiaimpactor.com
-
 ================
 
 fastlane is required to resign the ipa and dylib. use homebrew or macports:
